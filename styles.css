@@ -1,0 +1,292 @@
+/* Serve para resetar os estilos padrão do navegador */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ================== Estilização do body ================== */
+
+body {
+  background: #0a0a0a;
+  color: #fff;
+}
+
+/* ================== Espaçamento dos projestos ================== */
+.secao {
+    padding: 100px 0;
+    padding-left: 50px;
+}
+
+/* ================== Estilização do header ================== */
+
+header {
+    display: flex; 
+    padding-right: 120px;                   
+    justify-content: center;  /* Serve para alinhar os itens ao centro */
+    align-items: center;            /* Alinha os itens ao centro */
+}
+
+/* ================== Estilização da ul ================== */
+
+ul {
+    display: flex;        /* Serve para colocar os itens da lista em linha */
+    gap: 50px;            /* Serve para colocar um espaço entre os itens da lista */
+    list-style: none;     /* Serve para tirar os pontos da lista */
+    padding: 30px;        /* Serve para colocar um espaço entre o header e a lista */
+    margin-left: 70px;    /* Serve para colocar um espaço entre a lista e o header */
+}
+
+/* ================== Estilização do Principal ================== */
+
+.principal {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    min-height: 85vh;
+}
+
+.principal h1 {
+    font-size: 80px;     /* Serve para aumentar o tamanho da letra */
+    line-height: 1.1;    /* Serve para aumentar o espaço entre as linhas */
+    margin-bottom: 20px; /* Serve para colocar um espaço entre o h1 e o p */     
+    letter-spacing: -4px; /* Serve para aumentar o espaço entre as letras */
+}
+
+.principal h1 span {
+    color: #4b0082   /* Serve para mudar a cor da letra */
+}
+
+.principal p { 
+    font-size: 20px;            /* Serve para aumentar o tamanho da letra */
+    margin-bottom: 20px;
+    max-width: 900px;
+    color: #bbb;
+    margin-bottom: 40px;
+}
+
+.botao {
+    display: inline-block;   /* Serve para colocar os itens em linha */
+    padding: 15px 30px;     /* Serve para colocar um espaço entre o texto e a borda */
+    background-color:#53197d;   /* Serve para mudar a cor do botão */
+    color: #fff;               /* Serve para mudar a cor do texto */
+    font-weight: bold;          /* Serve para deixar o texto em negrito */
+    border-radius: 6px;         /* Serve para arredondar as bordas */
+}
+
+.titulo-secao {
+    font-size: 42px;
+    margin-bottom: 50px;
+    position: relative;
+    
+
+}
+
+/* ================== Estilização dos projetos ================== */
+
+.titulo-secao::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    width: 100px;
+    height: 4px;
+    background-color: #4b0082;
+
+}
+
+
+.grade-projetos {
+    display: grid;  
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.card-projeto {
+    background-color: #1b1b1b;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.img-projeto {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+
+.info-projeto {
+    padding: 20px;
+
+}
+
+.info-projeto h3 {
+    margin-bottom: 10px;
+}
+
+.info-projeto p {
+    color: #bbb;
+    margin-bottom: 15px;
+}
+
+.info-projeto a {
+    color: #ae82ce;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* ================== Estilização do Sobre ================== */
+
+.sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /* Serve para colocar os itens em duas colunas */
+    gap: 50px;
+    align-items: center;
+    padding-left: 50px;
+    max-width: 1200px;
+}
+
+.img-sobre {
+    height: 400px;
+    background-color: #0a0a0a;
+    border-radius: 10px;
+}
+
+.conteudo-sobre h3 {
+    margin-bottom: 30px;
+}
+
+.conteudo-sobre p {
+    margin-bottom: 20px;
+    color: #bbb;
+}
+
+.habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+.tag-habilidades {
+    background-color:rgba(83, 25, 125, 0.2);
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* ================== Estilização do Contato ================== */
+
+.botoes-contato {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.botao-contato {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    min-width: 160px;
+    text-decoration: none;
+
+}
+
+.discord {
+    background-color: #7289da;
+    color: #fff;
+}
+
+.email {
+    background-color: #EA4335;
+    color: #fff;
+}
+
+.linkedin {
+    background-color: #0077B7;
+    color: #fff;
+}
+
+.git {
+    background-color: #fff;
+    color: #0a0a0a;
+}
+
+
+.botao-contato svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  overflow: visible;
+  margin-right: 8px;
+}
+
+.efeito-cursor {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.efeito-cursor:hover {
+    transform: translateY(-5px);
+}
+
+.cursor{
+    pointer-events: none;
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(58, 23, 126, 0.5);
+    z-index: 99;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 768px){
+
+    header {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    ul{
+        gap: 20px;
+        justify-content: flex-start;
+    }
+
+    .secao{
+        padding: 60px 20px;
+        margin-bottom: 0;
+    }
+
+    .sobre{
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+}
+
+.footer {
+    font-family: "Montserrat", sans-serif;
+    padding: 20px 5%;
+    text-align: center;
+    border-top: 1px solid #222;
+}
