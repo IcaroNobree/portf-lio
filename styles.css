@@ -10,7 +10,7 @@
 /* ================== Estilização do body ================== */
 
 body {
-  background: #0a0a0a;
+  background: linear-gradient(135deg, #000000, #2f2f2f);
   color: #fff;
 }
 
