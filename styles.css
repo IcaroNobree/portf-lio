@@ -14,6 +14,57 @@ body {
   color: #fff;
 }
 
+.estrelas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  background-image:
+    radial-gradient(1px 1px at 10% 20%, #fff 0, transparent 1px),
+    radial-gradient(2px 2px at 30% 40%, #fff 0, transparent 2px),
+    radial-gradient(1px 1px at 50% 60%, #fff 0, transparent 1px),
+    radial-gradient(3px 3px at 70% 30%, #fff 0, transparent 3px),
+    radial-gradient(1px 1px at 90% 80%, #fff 0, transparent 1px),
+    radial-gradient(1px 1px at 20% 70%, #fff 0, transparent 1px),
+    radial-gradient(2px 2px at 80% 15%, #fff 0, transparent 2px),
+    radial-gradient(1px 1px at 40% 90%, #fff 0, transparent 1px),
+    radial-gradient(2px 2px at 60% 10%, #fff 0, transparent 2px),
+    radial-gradient(1px 1px at 75% 50%, #fff 0, transparent 1px),
+    radial-gradient(1px 1px at 5% 5%, #fff 0, transparent 1px),
+    radial-gradient(2px 2px at 15% 80%, #fff 0, transparent 2px),
+    radial-gradient(1px 1px at 25% 60%, #fff 0, transparent 1px),
+    radial-gradient(1px 1px at 35% 10%, #fff 0, transparent 1px),
+    radial-gradient(2px 2px at 45% 25%, #fff 0, transparent 2px),
+    radial-gradient(1px 1px at 55% 75%, #fff 0, transparent 1px),
+    radial-gradient(2px 2px at 65% 40%, #fff 0, transparent 2px),
+    radial-gradient(1px 1px at 85% 70%, #fff 0, transparent 1px),
+    radial-gradient(1px 1px at 95% 30%, #fff 0, transparent 1px),
+    radial-gradient(3px 3px at 88% 90%, #fff 0, transparent 3px),
+    radial-gradient(1px 1px at 12% 55%, #fff 0, transparent 1px),
+    radial-gradient(2px 2px at 28% 75%, #fff 0, transparent 2px),
+    radial-gradient(1px 1px at 60% 90%, #fff 0, transparent 1px),
+    radial-gradient(1px 1px at 77% 20%, #fff 0, transparent 1px),
+    radial-gradient(1px 1px at 67% 85%, #fff 0, transparent 1px),
+    radial-gradient(2px 2px at 22% 10%, #fff 0, transparent 2px),
+    radial-gradient(1px 1px at 48% 48%, #fff 0, transparent 1px),
+    radial-gradient(2px 2px at 32% 88%, #fff 0, transparent 2px),
+    radial-gradient(1px 1px at 10% 95%, #fff 0, transparent 1px),
+    radial-gradient(2px 2px at 90% 10%, #fff 0, transparent 2px),
+    radial-gradient(3px 3px at 13% 33%, #fff 0, transparent 3px),
+    radial-gradient(1px 1px at 38% 17%, #fff 0, transparent 1px),
+    radial-gradient(1px 1px at 43% 71%, #fff 0, transparent 1px),
+    radial-gradient(2px 2px at 91% 41%, #fff 0, transparent 2px),
+    radial-gradient(1px 1px at 27% 48%, #fff 0, transparent 1px),
+    radial-gradient(1px 1px at 59% 27%, #fff 0, transparent 1px),
+    radial-gradient(1px 1px at 71% 67%, #fff 0, transparent 1px),
+    radial-gradient(1px 1px at 84% 23%, #fff 0, transparent 1px),
+    radial-gradient(2px 2px at 17% 92%, #fff 0, transparent 2px),
+    radial-gradient(1px 1px at 35% 37%, #fff 0, transparent 1px);
+}
+
 /* ================== Espaçamento dos projestos ================== */
 .secao {
     padding: 100px 0;
